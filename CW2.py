@@ -1,4 +1,4 @@
-a = input(int("Enter the value for a""))
+a = input(int("Enter the value for a"))
 b = input(int("Enter the value for b"))
 c = input(int("Enter the value for c"))
 
@@ -24,4 +24,5 @@ elif operator == "*":
     Print("the product is:" , number1*number2)
 elif operator == "/":
     Print("the quotient is:" , number1/number2)
+
 
