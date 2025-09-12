@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+myList = ["Orange", "banana", "apple" ]
+print(myList)
+
+while 1:
+    print("1. Append to the list")
+    print("2. Remove from the list")
+    print("3. pop an element from the list")
+    print("4. Display the list")
+    print("5. Quit")
+
+    option = input("enter your value= ")
+
+    if option =="1":
+        append1 =input("Enter the element you want to add= ")
+        myList.append(append1)
+
+    elif option =="2":
+        remove1=input("Enter the element you want to remove= ")
+        myList.remove(remove1)
+    elif option =="3":
+       myList.pop()
+    elif option=="4":
+        print(myList)
+    else:
+        break
+
+
+
+
